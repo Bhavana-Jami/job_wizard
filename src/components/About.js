@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import '../styles/ContactUs.css'
-const ContactUs = forwardRef((props, ref) => {
+import '../styles/About.css'
+const About = forwardRef((props, ref) => {
   return (
     <div ref={ref} className='aboutSection'>
       About
@@ -8,4 +8,4 @@ const ContactUs = forwardRef((props, ref) => {
   );
 });
 
-export default ContactUs;
+export default About;
